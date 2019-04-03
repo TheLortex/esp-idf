@@ -60,3 +60,7 @@ tools/windows/tool_setup/Output
 
 test_multi_heap_host
 
+.merlin
+make/build
+make/sdkconfig
+make/sdkconfig.old

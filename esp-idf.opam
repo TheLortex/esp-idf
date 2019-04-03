@@ -1,0 +1,6 @@
+opam-version: "2.0"
+synopsis: "ESP32 framework"
+maintainer: "Lucas Pluvinage <lucas.pluvinage@ens.fr>"
+authors: "Lucas Pluvinage <lucas.pluvinage@ens.fr>"
+depends: ["ocaml" "gcc-toolchain-esp32"]
+install: [make "esp-idf" "DESTDIR=%{prefix}%/esp32-deps/esp32-idf/"]

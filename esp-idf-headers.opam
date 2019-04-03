@@ -1,0 +1,6 @@
+opam-version: "2.0"
+synopsis: "ESP32 framework headers"
+maintainer: "Lucas Pluvinage <lucas.pluvinage@ens.fr>"
+authors: "Lucas Pluvinage <lucas.pluvinage@ens.fr>"
+depends: ["ocaml" "gcc-toolchain-esp32"]
+install: [make "esp-idf-headers" "DESTDIR=%{prefix}%/xtensa-esp32-elf/xtensa-esp32-elf/include/"]
